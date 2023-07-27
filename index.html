@@ -24,9 +24,52 @@
 </head>
 
 <body>
-  <!-- navbar section -->
-  <nav>
 
+
+
+
+
+
+  <!-- navbar section -->
+  <nav class="max-w-screen-xl mx-auto px-4 my-4 lg:my-10">
+    <div class="navbar text-d-text lg:text-white lg:bg-[#F85559] lg:rounded-full">
+      <div class="navbar-start hidden lg:flex">
+        <ul class="menu menu-horizontal font-medium text-lg">
+          <li><span class="cursor-pointer pr-1">Home</span></li>
+          <li><span class="cursor-pointer pr-1">About Us</span></li>
+          <li><span class="cursor-pointer pr-1">Shop</span></li>
+          <li><span class="cursor-pointer pr-1">All Fruits</span></li>
+        </ul>
+      </div>
+      <div class="navbar-start lg:navbar-center">
+        <div class="flex items-center lg:mx-auto lg:py-4">
+          <img src="img/logo.png" class="h-8 lg:h-12" alt="">
+          <a class="btn btn-ghost font-bold text-xl lg:text-4xl normal-case">Fruit Burst</a>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <div class="hidden lg:flex relative pr-4 w-[300px]">
+          <div class="absolute inset-y-0 right-8 flex items-center pl-3 pointer-events-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none">
+              <path d="M20.9998 21L15.8028 15.803M15.8028 15.803C17.2094 14.3965 17.9996 12.4887 17.9996 10.4995C17.9996 8.51035 17.2094 6.60262 15.8028 5.19605C14.3962 3.78947 12.4885 2.99927 10.4993 2.99927C8.51011 2.99927 6.60238 3.78947 5.19581 5.19605C3.78923 6.60262 2.99902 8.51035 2.99902 10.4995C2.99902 12.4887 3.78923 14.3965 5.19581 15.803C6.60238 17.2096 8.51011 17.9998 10.4993 17.9998C12.4885 17.9998 14.3962 17.2096 15.8028 15.803Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <input class="input w-full p-4 text-d-text rounded-full bg-white" placeholder="Search here" required>
+      </div>
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none">
+              <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Item 1</a></li>
+            <li><a>Parent</a></li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </nav>
   <!-- header section -->
   <header class="max-w-screen-xl mx-auto">
@@ -42,14 +85,16 @@
               <div class="max-w-md">
                 <h1 class="mb-2 md:mb-5 text-2xl md:text-5xl font-extrabold">Exotic tastes at your
                   <br>
-                  doorstep</h1>
+                  doorstep
+                </h1>
                 <p class="mb-8 text-sm md:text-lg font-medium">We supply highly quality organic products</p>
-                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get Started</button>
+                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get
+                  Started</button>
               </div>
             </div>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-sm md:btn-md btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-sm md:btn-md btn-circle btn-dark">❮</a>
             <a href="#slide2" class="btn btn-sm md:btn-md btn-circle">❯</a>
           </div>
         </div>
@@ -62,14 +107,16 @@
               <div class="max-w-md">
                 <h1 class="mb-2 md:mb-5 text-2xl md:text-5xl font-extrabold">Exotic tastes at your
                   <br>
-                  doorstep</h1>
+                  doorstep
+                </h1>
                 <p class="mb-8 text-sm md:text-lg font-medium">We supply highly quality organic products</p>
-                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get Started</button>
+                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get
+                  Started</button>
               </div>
             </div>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-sm md:btn-md btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-sm md:btn-md btn-circle">❮</a>
             <a href="#slide3" class="btn btn-sm md:btn-md btn-circle">❯</a>
           </div>
         </div>
@@ -82,14 +129,16 @@
               <div class="max-w-md">
                 <h1 class="mb-2 md:mb-5 text-2xl md:text-5xl font-extrabold">Exotic tastes at your
                   <br>
-                  doorstep</h1>
+                  doorstep
+                </h1>
                 <p class="mb-8 text-sm md:text-lg font-medium">We supply highly quality organic products</p>
-                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get Started</button>
+                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get
+                  Started</button>
               </div>
             </div>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-sm md:btn-md btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-sm md:btn-md btn-circle">❮</a>
             <a href="#slide4" class="btn btn-sm md:btn-md btn-circle">❯</a>
           </div>
         </div>
@@ -102,20 +151,23 @@
               <div class="max-w-md">
                 <h1 class="mb-2 md:mb-5 text-2xl md:text-5xl font-extrabold">Exotic tastes at your
                   <br>
-                  doorstep</h1>
+                  doorstep
+                </h1>
                 <p class="mb-8 text-sm md:text-lg font-medium">We supply highly quality organic products</p>
-                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get Started</button>
+                <button class="btn text-white font-extrabold text-lg border-none bg-[#F85559] hover:bg-[#f15678ee]">Get
+                  Started</button>
               </div>
             </div>
           </div>
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-sm md:btn-md btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-sm md:btn-md btn-circle">❮</a>
             <a href="#slide1" class="btn btn-sm md:btn-md btn-circle">❯</a>
           </div>
         </div>
       </div>
       <!-- carousel badge for large device only -->
-      <div class="hidden relative -mt-14 lg:-mt-28 z-20 md:grid gap-x-2 mx-auto grid-cols-5 place-items-center rounded-lg md:w-11/12 lg:w-10/12 bg-white shadow-lg p-8 lg:p-10">
+      <div
+        class="hidden relative -mt-14 lg:-mt-28 z-20 md:grid gap-x-2 mx-auto grid-cols-5 place-items-center rounded-lg md:w-11/12 lg:w-10/12 bg-white shadow-lg p-8 lg:p-10">
         <div class="text-center">
           <img class="max-h-24 lg:max-h-26 mb-3 lg:mb-4" src="img/fruit1.png" alt="">
           <p class="text-d-text font-medium text-xl opacity-80">Red Grape</p>
